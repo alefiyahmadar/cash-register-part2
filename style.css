@@ -1,0 +1,69 @@
+ :root{
+    --primary-color:#475569;
+
+
+ }
+
+body{
+    text-align: center;
+    margin: 3rem auto 1rem;
+    background-color: #f1f5f9;
+}
+.header{
+    color: var(--primary-color);
+    
+    font-size: 2.5rem;
+}
+.label{
+
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    
+}
+.input{
+    margin: auto;
+    text-align: center;
+    padding: 0.5rem;
+    
+}
+.button{
+
+    display: block;
+    margin: 0.5rem auto;
+    font-size: larger;
+    background-color: var(--primary-color);
+    border-color: white;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    width: 5%;
+}
+.message{
+
+    font-size: large;
+    text-align: center;
+    color: var(--primary-color);
+    
+}
+.table,th,td{
+
+    border: 1px var(--primary-color) solid;
+    border-collapse: collapse;
+    color: var(--primary-color);
+    margin: auto;
+    padding: 0.5rem;
+    
+    
+}
+.table{
+
+    width: 50%;
+}
+
+
+
+
+
+
