@@ -8,6 +8,7 @@ body{
     text-align: center;
     margin: 3rem auto 1rem;
     background-color: #f1f5f9;
+    min-width: 100vw;
 }
 .header{
     color: var(--primary-color);
@@ -26,6 +27,7 @@ body{
     margin: auto;
     text-align: center;
     padding: 0.5rem;
+    
     
 }
 .button{
