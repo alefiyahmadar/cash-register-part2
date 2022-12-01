@@ -3,10 +3,16 @@
 
 
  }
+ *{
+    box-sizing: border-box;
+ }
 
+ .container{
+    margin: 4rem auto 7rem;
+ }
 body{
     text-align: center;
-    margin: 3rem auto 1rem;
+    
     background-color: #f1f5f9;
     min-width: 100vw;
 }
@@ -31,15 +37,16 @@ body{
     
 }
 .button{
-
+    
     display: block;
-    margin: 0.5rem auto;
-    font-size: larger;
+    margin:  auto;
+    cursor: pointer;
+    font-size: large;
     background-color: var(--primary-color);
     border-color: white;
     color: white;
     border-radius: 0.5rem;
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem;
     width: 5%;
 }
 .message{
