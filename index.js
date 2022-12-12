@@ -40,7 +40,7 @@ function calculateChange(){
         showMessage("Transaction is settled!")
     }else{
 
-        if(cashGiven.value>billAmount.value){
+        if(Number(cashGiven.value)>Number(billAmount.value)){
             var amountReturn=cashGiven.value-billAmount.value
 
             changeToGive(amountReturn)
